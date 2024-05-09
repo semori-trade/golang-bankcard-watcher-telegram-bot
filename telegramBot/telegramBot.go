@@ -1,12 +1,11 @@
 package telegramBot
 
 import (
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	"github.com/semori-trade/golang-bankcard-watcher-telegram-bot/internal/keyboard"
+
 	"fmt"
 	"log"
-
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-
-	"github.com/semori-trade/golang-bankcard-watcher-telegram-bot/telegramBot/internal/keyboard"
 )
 
 type Options struct {
